@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFFE74DA2C81CFA10019F477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFE74D92C81CFA10019F477 /* AppDelegate.swift */; };
+		FFFE74DC2C81CFA10019F477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFE74DB2C81CFA10019F477 /* SceneDelegate.swift */; };
+		FFFE74E12C81CFA10019F477 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FFFE74E02C81CFA10019F477 /* Base */; };
+		FFFE74E32C81CFA30019F477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFE74E22C81CFA30019F477 /* Assets.xcassets */; };
+		FFFE74E62C81CFA30019F477 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FFFE74E52C81CFA30019F477 /* Base */; };
+		FFFE75012C81E8980019F477 /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFFE74F82C81E8970019F477 /* Bach.jpg */; };
+		FFFE75022C81E8980019F477 /* Beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFFE74F92C81E8970019F477 /* Beethoven.jpg */; };
+		FFFE75032C81E8980019F477 /* Pachelbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FFFE74FA2C81E8970019F477 /* Pachelbel.jpg */; };
+		FFFE75042C81E8980019F477 /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFFE74FC2C81E8970019F477 /* aria.mp3 */; };
+		FFFE75052C81E8980019F477 /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFFE74FD2C81E8970019F477 /* cannon.mp3 */; };
+		FFFE75062C81E8980019F477 /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFFE74FE2C81E8970019F477 /* elise.mp3 */; };
+		FFFE75082C81EADE0019F477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFE75072C81EADE0019F477 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFFE74D62C81CFA10019F477 /* TechPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFE74D92C81CFA10019F477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFFE74DB2C81CFA10019F477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFFE74E02C81CFA10019F477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFFE74E22C81CFA30019F477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFFE74E52C81CFA30019F477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFFE74E72C81CFA30019F477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFFE74F82C81E8970019F477 /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
+		FFFE74F92C81E8970019F477 /* Beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beethoven.jpg; sourceTree = "<group>"; };
+		FFFE74FA2C81E8970019F477 /* Pachelbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pachelbel.jpg; sourceTree = "<group>"; };
+		FFFE74FC2C81E8970019F477 /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
+		FFFE74FD2C81E8970019F477 /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cannon.mp3; sourceTree = "<group>"; };
+		FFFE74FE2C81E8970019F477 /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
+		FFFE75072C81EADE0019F477 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFE74D32C81CFA10019F477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFFE74CD2C81CFA10019F477 = {
+			isa = PBXGroup;
+			children = (
+				FFFE74D82C81CFA10019F477 /* TechPod */,
+				FFFE74D72C81CFA10019F477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFE74D72C81CFA10019F477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE74D62C81CFA10019F477 /* TechPod.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFE74D82C81CFA10019F477 /* TechPod */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE74D92C81CFA10019F477 /* AppDelegate.swift */,
+				FFFE74DB2C81CFA10019F477 /* SceneDelegate.swift */,
+				FFFE75072C81EADE0019F477 /* ViewController.swift */,
+				FFFE74DF2C81CFA10019F477 /* Main.storyboard */,
+				FFFE74E22C81CFA30019F477 /* Assets.xcassets */,
+				FFFE74E42C81CFA30019F477 /* LaunchScreen.storyboard */,
+				FFFE74E72C81CFA30019F477 /* Info.plist */,
+				FFFE75002C81E8970019F477 /* Resources */,
+			);
+			path = TechPod;
+			sourceTree = "<group>";
+		};
+		FFFE74FB2C81E8970019F477 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE74F82C81E8970019F477 /* Bach.jpg */,
+				FFFE74F92C81E8970019F477 /* Beethoven.jpg */,
+				FFFE74FA2C81E8970019F477 /* Pachelbel.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FFFE74FF2C81E8970019F477 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE74FC2C81E8970019F477 /* aria.mp3 */,
+				FFFE74FD2C81E8970019F477 /* cannon.mp3 */,
+				FFFE74FE2C81E8970019F477 /* elise.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		FFFE75002C81E8970019F477 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFFE74FB2C81E8970019F477 /* Images */,
+				FFFE74FF2C81E8970019F477 /* Songs */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFFE74D52C81CFA10019F477 /* TechPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFE74EA2C81CFA30019F477 /* Build configuration list for PBXNativeTarget "TechPod" */;
+			buildPhases = (
+				FFFE74D22C81CFA10019F477 /* Sources */,
+				FFFE74D32C81CFA10019F477 /* Frameworks */,
+				FFFE74D42C81CFA10019F477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechPod;
+			productName = TechPod;
+			productReference = FFFE74D62C81CFA10019F477 /* TechPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFE74CE2C81CFA10019F477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FFFE74D52C81CFA10019F477 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = FFFE74D12C81CFA10019F477 /* Build configuration list for PBXProject "TechPod" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFFE74CD2C81CFA10019F477;
+			productRefGroup = FFFE74D72C81CFA10019F477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFE74D52C81CFA10019F477 /* TechPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFFE74D42C81CFA10019F477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFE75032C81E8980019F477 /* Pachelbel.jpg in Resources */,
+				FFFE75022C81E8980019F477 /* Beethoven.jpg in Resources */,
+				FFFE74E32C81CFA30019F477 /* Assets.xcassets in Resources */,
+				FFFE75012C81E8980019F477 /* Bach.jpg in Resources */,
+				FFFE74E62C81CFA30019F477 /* Base in Resources */,
+				FFFE75062C81E8980019F477 /* elise.mp3 in Resources */,
+				FFFE75052C81E8980019F477 /* cannon.mp3 in Resources */,
+				FFFE74E12C81CFA10019F477 /* Base in Resources */,
+				FFFE75042C81E8980019F477 /* aria.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFE74D22C81CFA10019F477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFE75082C81EADE0019F477 /* ViewController.swift in Sources */,
+				FFFE74DA2C81CFA10019F477 /* AppDelegate.swift in Sources */,
+				FFFE74DC2C81CFA10019F477 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFFE74DF2C81CFA10019F477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFE74E02C81CFA10019F477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFFE74E42C81CFA30019F477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFE74E52C81CFA30019F477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFFE74E82C81CFA30019F477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFFE74E92C81CFA30019F477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFFE74EB2C81CFA30019F477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechPod/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Kushima.Kusshi.TechPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFFE74EC2C81CFA30019F477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TechPod/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Kushima.Kusshi.TechPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFE74D12C81CFA10019F477 /* Build configuration list for PBXProject "TechPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFE74E82C81CFA30019F477 /* Debug */,
+				FFFE74E92C81CFA30019F477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFE74EA2C81CFA30019F477 /* Build configuration list for PBXNativeTarget "TechPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFE74EB2C81CFA30019F477 /* Debug */,
+				FFFE74EC2C81CFA30019F477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFE74CE2C81CFA10019F477 /* Project object */;
+}
